@@ -66,18 +66,19 @@ html, body{
     justify-content: space-around;
     font-size: 1rem;
     z-index: 1;
+    border-radius: 15%;
 }
 
 .main{
     position: relative;
     left: 25%;
     margin: 1rem;
-    color: aqua;
+    color: #1C1C1C;
 }
 
 a{
     text-decoration: none;  
-    color: aqua; 
+    color: #1C1C1C; 
 }
 
 a:hover{
@@ -92,6 +93,7 @@ a:hover{
     padding-top: 5rem;
     padding-bottom: 5rem;
     max-width: 75rem;
+    position: fixed;
     
 }
 
@@ -102,6 +104,13 @@ a:hover{
     padding-top: 10rem;
     padding-right: 5rem;
     padding-bottom: 5rem;
+    background-color: #E6E6E6;
+    position: fixed;
+}
+
+.section-about{
+    background-image: url("./assets/BackGround-Hobbies.png");
+    opacity: 30;
 }
 
 .section-hobbies-content{
@@ -111,6 +120,8 @@ a:hover{
     padding-top: 10rem;
     padding-right: 5rem;
     padding-bottom: 5rem;
+    overflow-x: hidden;
+
 }
 
 .section-github-content{
@@ -120,28 +131,41 @@ a:hover{
     padding-top: 10rem;
     padding-right: 5rem;
     padding-bottom: 5rem;
+    position: fixed;
 }
+
 
 .landscape{
     border-radius: 3%;
-    width: 700px;
-    height: 1000px;
+    width: 500px;
+    height: 800px;
     margin-bottom: 1rem;
-    margin-top: -3rem;  
+    margin-top: 3rem;  
 }
 
 .car{
     border-radius: 3%;
-    width: 700px;
-    height: 1000px;
+    width: 500px;
+    height: 800px;
     margin-bottom: 1rem;
-    margin-top: -3rem;  
+    margin-top: 3rem; 
 }
 
 .church{
     border-radius: 3%;
-    width: 700px;
-    height: 1000px;
+    width: 500px;
+    height: 800px;
     margin-bottom: 1rem;
-    margin-top: -3rem;  
+    margin-top: 3rem; 
+    margin-right: 100rem; 
+}
+
+.steam-icon{
+    width: 60px;
+    padding-left: 21rem;
+}
+
+.spotify-icon{
+    width: 70px;
+    padding-left: 21rem
 }
