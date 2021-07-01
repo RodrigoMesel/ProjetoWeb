@@ -5,5 +5,143 @@
 html, body{
     margin: 0;
     box-sizing: border-box;
+    background-color: #848484;
+}
+
+.general{
+    display: flex;
+}
+
+.left-menu{
+    position: fixed;
+    box-sizing: border-box;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 100vh;
+    background-color: #2E2E2E;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem;
+    color: #BDBDBD;
+    z-index: 0;
+}
+
+.top-left-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.bottom-left-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 5rem;
+
+}
+
+.photo{
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    margin-bottom: 1rem;
+    margin-top: -3rem;  
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 20%;
+    width: 80%;
+    height: 10vh;
     background-color: #6E6E6E;
+    color: #BDBDBD;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1rem;
+    z-index: 1;
+}
+
+.main{
+    position: relative;
+    left: 25%;
+    margin: 1rem;
+    color: aqua;
+}
+
+a{
+    text-decoration: none;  
+    color: aqua; 
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.section{
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    max-width: 75rem;
+    
+}
+
+.section-about-content{
+    min-width: 90vh;
+    align-items: center;
+    padding-left: 0rem;
+    padding-top: 10rem;
+    padding-right: 5rem;
+    padding-bottom: 5rem;
+}
+
+.section-hobbies-content{
+    min-width: 90vh;
+    align-items: center;
+    padding-left: 0rem;
+    padding-top: 10rem;
+    padding-right: 5rem;
+    padding-bottom: 5rem;
+}
+
+.section-github-content{
+    min-width: 90vh;
+    align-items: center;
+    padding-left: 0rem;
+    padding-top: 10rem;
+    padding-right: 5rem;
+    padding-bottom: 5rem;
+}
+
+.landscape{
+    border-radius: 3%;
+    width: 700px;
+    height: 1000px;
+    margin-bottom: 1rem;
+    margin-top: -3rem;  
+}
+
+.car{
+    border-radius: 3%;
+    width: 700px;
+    height: 1000px;
+    margin-bottom: 1rem;
+    margin-top: -3rem;  
+}
+
+.church{
+    border-radius: 3%;
+    width: 700px;
+    height: 1000px;
+    margin-bottom: 1rem;
+    margin-top: -3rem;  
 }
