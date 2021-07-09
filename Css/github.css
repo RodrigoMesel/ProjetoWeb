@@ -1,0 +1,120 @@
+*{
+    font-family: "Josefin Sans", sans-serif;
+}
+
+
+html, body{
+    margin: 0;
+    box-sizing: border-box;
+    background-image: url(../assets/Github-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.general{
+    display: flex;
+}
+
+.left-menu{
+    position: fixed;
+    box-sizing: border-box;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 100vh;
+    background-color: #82D2AF;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem;
+    color: black;
+    z-index: 0;
+    text-align: center;
+}
+
+.top-left-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.bottom-left-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.photo{
+    border-radius: 50%;
+    max-width: 350px;
+    max-height: 350px;
+    width: auto;
+    height: auto;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 20%;
+    width: 80%;
+    height: 10vh;
+    background-color: #80B4B0;
+    color: #BDBDBD;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1rem;
+    z-index: 1;
+}
+
+.main{
+    margin: 0rem;
+    margin-left: 24rem;
+    margin-top: 7rem;
+    color: #1C1C1C;
+    background-color: #D9EBEF;
+    opacity: 88%;
+    border-radius: 5%;
+}
+
+a{
+    text-decoration: none;  
+    color: #1C1C1C; 
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.section{
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    max-width: 75rem;
+    position: fixed;
+}
+
+.section-github-content{
+    min-width: 90vh;
+    align-items: center;
+    padding-left: 3rem;
+    padding-top: 3rem;
+    padding-right: 5rem;
+    padding-bottom: 3rem;
+    border-radius: 10%;
+    opacity: 100%;
+}
+
+.github-icon{
+    max-width: 80px;
+    padding-left: 1rem;
+    width: auto;
+    opacity: 100%;
+}

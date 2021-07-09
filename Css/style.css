@@ -2,10 +2,14 @@
     font-family: "Josefin Sans", sans-serif;
 }
 
+
 html, body{
     margin: 0;
     box-sizing: border-box;
-    background-color: #D9EBEF;
+    background-image: url(../assets/About-background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 .general{
@@ -26,7 +30,6 @@ html, body{
     padding: 2rem;
     color: black;
     z-index: 0;
-    border-radius: 5%;
     text-align: center;
 }
 
@@ -67,13 +70,16 @@ html, body{
     justify-content: space-around;
     font-size: 1rem;
     z-index: 1;
-    border-radius: 30%;
 }
 
 .main{
-    margin: 3rem;
+    margin: 0rem;
+    margin-left: 24rem;
+    margin-top: 5rem;
     color: #1C1C1C;
     background-color: #D9EBEF;
+    opacity: 90%;
+    border-radius: 10%;
 }
 
 a{
@@ -99,87 +105,11 @@ a:hover{
 .section-about-content{
     min-width: 90vh;
     align-items: center;
-    padding-left: 25rem;
-    padding-top: 8rem;
+    padding-left: 2rem;
+    padding-top: 5rem;
     padding-right: 5rem;
     padding-bottom: 5rem;
-    border-radius: 30%;
+    border-radius: 5%;
+    opacity: 100%;
+
 }
-
-
-
-.section-hobbies-content{
-    min-width: 90vh;
-    align-items: center;
-    padding-left: 22rem;
-    padding-top: 8rem;
-    padding-right: 0rem;
-    padding-bottom: 5rem;   
-}
-
-.section-github-content{
-    min-width: 90vh;
-    align-items: center;
-    padding-left: 22rem;
-    padding-top: 8rem;
-    padding-right: 5rem;
-    padding-bottom: 5rem;
-}
-
-.landscape{
-    border-radius: 3%;
-    width: 500px;
-    height: 800px;
-    margin-bottom: 1rem;
-    margin-top: 3rem;  
-    margin-right: 5rem;
-    margin-left: 3rem;
-}
-
-.car{
-    border-radius: 3%;
-    width: 500px;
-    height: 800px;
-    margin-bottom: 1rem;
-    margin-top: 3rem; 
-    margin-right: 5rem;
-    margin-left: 3rem;
-}
-
-.church{
-    border-radius: 3%;
-    width: 500px;
-    height: 800px;
-    margin-bottom: 1rem;
-    margin-top: 3rem; 
-    margin-right: 1rem; 
-    
-}
-
-.plant{
-    border-radius: 3%;
-    width: 500px;
-    height: 800px;
-    margin-top: 3rem;
-    margin-bottom: 1rem;
-    margin-right: 1rem;
-}
-
-.steam-icon{
-    max-width: 60px;
-    padding-left: 1rem;
-    width: auto;
-}
-
-.spotify-icon{
-    max-width: 70px;
-    padding-left: 1rem;
-    width: auto;
-}
-
-.github-icon{
-    max-width: 80px;
-    padding-left: 1rem;
-    width: auto;
-}
-
