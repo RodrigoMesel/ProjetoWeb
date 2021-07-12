@@ -168,5 +168,6 @@ a:hover{
 @media screen and (max-width: 1400px) {
     #html, body{
         zoom: 67%;
+        font-size: 106%;
     }
 }
