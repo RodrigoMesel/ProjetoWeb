@@ -171,3 +171,9 @@ a:hover{
         font-size: 106%;
     }
 }
+
+@media screen and (min-width: 1800px){
+    #html, body {
+        font-size: 85%;
+    }
+}
