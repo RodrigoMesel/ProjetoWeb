@@ -45,3 +45,30 @@ button{
     color: white;
     font-size: 20px;
 }
+
+.contact{
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+.gmail{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.gmail p{
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.linkedin{
+    margin-right: 80px;
+    padding-right: 30px;
+}
+
+.github{
+    height: 120px;
+    padding-bottom: 45px;
+}
