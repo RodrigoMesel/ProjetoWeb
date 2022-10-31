@@ -49,39 +49,25 @@ button{
     margin-top: 50px;
 }
 
-.gmail p{
-    margin-left: 30px;
-    font-size: 30px;
-}
-
-.gmail img{
-    width: 150px;
-}
-
-.linkedin{
-    margin-right: 80px;
-    width: 400px;
-}
-
 /* Responsividade */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1400px) {
     p, button{
     font-size: 18px;
     }    
 }     
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1401px) {
     p, button{
     font-size: 25px;
     }
 }  
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1400px) {
     h1{
     font-size: 40px;
     margin-top: 50px;
     }
 }     
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1401px) {
     h1{
     margin-top: 100px;
     font-size: 50px;
@@ -89,7 +75,7 @@ button{
     }
 }   
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1401px) {
     .gitandlink{
         display: flex;
         flex-direction: row;
@@ -100,17 +86,43 @@ button{
         padding-top: 50px;
         padding-right: 50px;
     }
+    .gmail img{
+        width: 150px;
+    }
+    
+    .linkedin{
+        margin-right: 80px;
+        width: 400px;
+    }
+    .gmail p{
+        margin-left: 30px;
+        font-size: 30px;
+    }
 }   
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1400px) {
     .gitandlink{
         display: flex;
-        flex-direction: column;
         justify-content: center;
     }
     .github{
-        width: 150px;
-        padding-right: 50px;
+        width: 100px;
+        padding-top: 50px;
+    }
+    .gmail img{
+        width: 100px;
+        height: 100px;
+        padding-top: 20px;
+    }
+    
+    .linkedin{
+        margin-right: 80px;
+        margin-left: 10%;
+        width: 300px;
+    }
+    .gmail p{
+        margin-left: 30px;
+        font-size: 25px;
     }
 }   
 

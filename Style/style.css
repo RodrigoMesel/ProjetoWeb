@@ -65,34 +65,34 @@ img{
 }
 
 /* Responsividade */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1400px) {
     .hbutton, button{
     font-size: 18px;
     }
 }     
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1401px) {
     .hbutton, button{
     font-size: 25px;
     }
 }  
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1400px) {
     img{
         height: 160px;
     }
 }     
-@media screen and (min-width: 1025px){
+@media screen and (min-width: 1401px){
     img{
         height: 260px;
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1400px) {
     h1{
         font-size: 30px;
         }
 }     
-@media screen and (min-width: 1025px) and (max-width: 1449) {
+@media screen and (min-width: 1401px) and (max-width: 1449px) {
     h1{
         font-size: 35px;
         margin-bottom: 50px;
@@ -105,12 +105,12 @@ img{
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1400px) {
     .description p{
         font-size: 18px;
     }
 }     
-@media screen and (min-width: 1025px) and (max-width: 1449px) {
+@media screen and (min-width: 1401px) and (max-width: 1449px) {
     .description p{
         font-size: 22px;
     }

@@ -84,36 +84,36 @@ button{
 }
 
 /* Responsividade */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1400px) {
     p, button{
     font-size: 20px;
     }
 }     
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1401px) {
     p, button{
     font-size: 25px;
     }
 }   
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1400px) {
     h1{
     font-size: 40px;
     }
 }     
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1401px) {
     h1{
     font-size: 50px;
     margin-bottom: 60px;
     }
 }   
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1400px){
     .github img{
         height: 60px;
         margin-left: 5px;
     }
 }   
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1401px) {
     .github img{
         height: 90px;
         margin-left: 5px;
