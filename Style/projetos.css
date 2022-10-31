@@ -170,6 +170,12 @@ button{
         margin: 100px 0px 25px 0px;
         max-width: 60%;
     }
+
+    .third img{
+        border-radius: 500px;
+        max-width: 80%;
+        height: 300px;
+    }
     
 }
 @media screen and (min-width: 1100px) and (max-height: 849px) {
@@ -183,5 +189,11 @@ button{
         align-items: center;
         margin: 100px 0px 25px 20%;
         max-width: 60%;
+    }
+
+    .third img{
+        border-radius: 500px;
+        max-width: 80%;
+        height: 200px;
     }
 }

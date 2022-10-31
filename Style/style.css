@@ -110,7 +110,7 @@ img{
         height: 180px;
     }
 }     
-@media screen and (min-width: 1001px){
+@media screen and (min-width: 1001px) and (min-height: 850px){
     img{
         height: 260px;
     }
