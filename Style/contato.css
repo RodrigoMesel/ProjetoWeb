@@ -51,7 +51,7 @@ button{
 
 /* Responsividade */
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-height: 849px) and (min-width: 800px) {
     p, button{
     font-size: 18px;
     }    
@@ -75,11 +75,96 @@ button{
     .linkedin{
         margin-right: 80px;
         margin-left: 10%;
-        width: 350px;
+        width: 70%;
     }
 
-    
+    .gitandlink{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
 
+    .github{
+        width: 70%;
+        padding-top: 30px;
+    }
+}   
+
+@media screen and (max-height: 849px) and (max-width: 799px) {
+    p, button{
+    font-size: 18px;
+    }    
+
+    h1{
+        font-size: 30px;
+        margin-top: 50px;
+    }
+
+    .gmail p{
+        margin-left: 30px;
+        font-size: 20px;
+    }
+
+    .gmail img{
+        width: 80px;
+        height: 80px;
+        padding-top: 20px;
+    }
+
+    .linkedin{
+        margin-right: 80px;
+        margin-left: 10%;
+        width: 70%;
+    }
+
+    .gitandlink{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .github{
+        width: 70%;
+        padding-top: 30px;
+    }
+}  
+
+@media screen and (max-width: 1400px) and (min-height: 850px) {
+    p, button{
+    font-size: 18px;
+    }    
+
+    h1{
+        font-size: 40px;
+        margin-top: 50px;
+    }
+
+    .gmail p{
+        margin-left: 30px;
+        font-size: 25px;
+    }
+
+    .gmail img{
+        width: 100px;
+        height: 100px;
+        padding-top: 20px;
+    }
+
+    .linkedin{
+        margin-right: 80px;
+        margin-left: 10%;
+        width: 70%;
+    }
+
+    .gitandlink{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .github{
+        width: 150px;
+    }
 }     
 @media screen and (min-width: 1401px) {
     p, button{
@@ -104,41 +189,15 @@ button{
     .linkedin{
         margin-right: 80px;
         width: 400px;
-    }    
+    }  
+
+    .gitandlink{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+    .github{
+        width: 150px;
+        padding-top: 50px;
+    }
 }  
-
-@media screen and (max-height: 849px){
-    .gitandlink{
-        display: flex;
-        justify-content: center;
-        flex-direction: row;
-    }
-    .github{
-        width: 100px;
-        padding-top: 50px;
-    }
-}
-
-@media screen and (max-width: 1400px) and (min-height: 850px){
-    .gitandlink{
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-    }
-
-    .github{
-        width: 150px;
-    }
-}
-
-@media screen and (min-width: 1401px) and (min-height: 850px){
-    .gitandlink{
-        display: flex;
-        justify-content: center;
-        flex-direction: row;
-    }
-    .github{
-        width: 150px;
-        padding-top: 50px;
-    }
-}
