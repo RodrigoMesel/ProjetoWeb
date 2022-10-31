@@ -76,7 +76,7 @@ img{
     }
 }  
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1400px) and (min-width: 1000px) {
     img{
         height: 160px;
     }
@@ -87,7 +87,7 @@ img{
     }
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1400px) and (min-width:1000px) {
     h1{
         font-size: 30px;
         }
@@ -104,8 +104,18 @@ img{
         margin-bottom: 60px;
     }
 }
-
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 999px) {
+    .description p{
+        font-size: 16px;
+    }
+    h1{
+        font-size: 22px;
+    }
+    img{
+        height: 100px;
+    }
+}
+@media screen and (max-width: 1400px) and (min-width: 1000px) {
     .description p{
         font-size: 18px;
     }
