@@ -65,16 +65,22 @@ img{
 }
 
 /* Responsividade */
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1400px) and (min-height: 850px){
     .hbutton, button{
-    font-size: 18px;
+    font-size: 22px;
     }
-}     
+}
+@media screen and (max-width: 1400px) and (max-height: 849px){
+    .hbutton, button{
+    font-size: 16px;
+    }
+}          
 @media screen and (min-width: 1401px) {
     .hbutton, button{
     font-size: 25px;
     }
 }  
+
 
 @media screen and (max-width: 1400px) and (min-width: 1000px) {
     img{
@@ -87,24 +93,26 @@ img{
     }
 }
 
-@media screen and (max-width: 1400px) and (min-width:1000px) {
+
+@media screen and (max-width: 599px) and (min-height: 850px) {
+    h1{
+        font-size: 25px;
+        }
+}
+@media screen and (max-width: 1400px) and (min-width: 600px) and (min-height: 850px) {
     h1{
         font-size: 30px;
         }
 }     
-@media screen and (min-width: 1401px) and (max-width: 1449px) {
-    h1{
-        font-size: 35px;
-        margin-bottom: 50px;
-    }
-}  
-@media screen and (min-width: 1450px){
+@media screen and (min-width: 1401px){
     h1{
         font-size: 40px;
         margin-bottom: 60px;
     }
 }
-@media screen and (max-width: 999px) {
+
+/* small*/
+@media screen and (max-width: 999px) and (max-height: 849px) {
     .description p{
         font-size: 16px;
     }
@@ -115,18 +123,29 @@ img{
         height: 100px;
     }
 }
-@media screen and (max-width: 1400px) and (min-width: 1000px) {
+@media screen and (max-width: 1449px) and (min-width: 1000px) and (max-height: 849px){
     .description p{
         font-size: 18px;
     }
 }     
-@media screen and (min-width: 1401px) and (max-width: 1449px) {
+
+/* big */
+@media screen and (max-width: 699px) and (min-height: 850px) {
     .description p{
-        font-size: 22px;
+        font-size: 20px;
     }
 }
-@media screen and (min-width: 1450px){
+@media screen and (max-width: 1449px) and (min-width: 700px) and (min-height: 850px){
+    .description p{
+        font-size: 23px;
+    }
+}     
+
+@media screen and (min-width: 1450px) and (min-height: 850px){
     .description p{
         font-size: 25px;
     }
 }
+
+
+
