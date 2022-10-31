@@ -77,7 +77,7 @@ button{
 }
 
 .github{
-    margin: 70px 0px 25px 0px;
+    margin: 70px 0px 25px 10px;
     display: flex;
     flex-direction: row;
     justify-content: center;
