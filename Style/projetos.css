@@ -27,7 +27,6 @@
 
 .hbutton{
     margin-right: 30px;
-    font-size: 20px;
 }
 
 a {
@@ -50,12 +49,9 @@ button{
     margin-top: 30px;
 }
 
-
-
 .firstProject p{
-    margin: 55px 0px 25px 20%;
+    margin: 100px 0px 25px 20%;
     max-width: 60%;
-    font-size: 20px;
 }
 
 .firstProject img{
@@ -63,9 +59,8 @@ button{
 }
 
 .secondProject p{
-    margin: 55px 0px 25px 20%;
+    margin: 100px 0px 25px 20%;
     max-width: 60%;
-    font-size: 20px;
 }
 
 .secondProject img{
@@ -74,23 +69,57 @@ button{
 }
 
 .third p{
-    margin: 55px 0px 25px 20%;
+    margin: 100px 0px 25px 20%;
     max-width: 60%;
-    font-size: 20px;
 }
 
 .third img{
     border-radius: 500px;
+    max-width: 80%;
 }
 
 .github{
-    margin: 30px 0px 25px 26%;
+    margin: 70px 0px 25px 0px;
     display: flex;
     flex-direction: row;
-    font-size: 20px;
+    justify-content: center;
 }
 
-.github img{
-    height: 60px;
-    margin-left: 5px;
-}
+/* Responsividade */
+@media screen and (max-width: 1024px) {
+    p, button{
+    font-size: 20px;
+    }
+}     
+@media screen and (min-width: 1025px) {
+    p, button{
+    font-size: 25px;
+    }
+}   
+
+@media screen and (max-width: 1024px) {
+    h1{
+    font-size: 40px;
+    }
+}     
+@media screen and (min-width: 1025px) {
+    h1{
+    font-size: 50px;
+    margin-bottom: 60px;
+    }
+}   
+
+@media screen and (max-width: 1024px){
+    .github img{
+        height: 60px;
+        margin-left: 5px;
+    }
+}   
+@media screen and (min-width: 1025px) {
+    .github img{
+        height: 90px;
+        margin-left: 5px;
+    }
+}   
+
+

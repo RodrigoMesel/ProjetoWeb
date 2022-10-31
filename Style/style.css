@@ -27,7 +27,6 @@
 
 .hbutton{
     margin-right: 30px;
-    font-size: 20px;
 }
 
 a {
@@ -52,16 +51,74 @@ img{
     margin-top: 30px;
 }
 
-.description{
-    background-color: #181428;
-    margin: 0px 250px;
-    border-radius: 60px;
-
-}
-
 .description p{
-    padding-left: 70px;
-    font-size: 18px;
+    padding-left: 10%;
     max-width: 80%;
 }
 
+.description{
+    display: flex;
+    flex-direction: column;
+    background-color: #181428;
+    border-radius: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0px 15%;
+}
+
+/* Responsividade */
+@media screen and (max-width: 1024px) {
+    .hbutton, button{
+    font-size: 18px;
+    }
+}     
+@media screen and (min-width: 1025px) {
+    .hbutton, button{
+    font-size: 25px;
+    }
+}  
+
+@media screen and (max-width: 1024px) {
+    img{
+        height: 160px;
+    }
+}     
+@media screen and (min-width: 1025px){
+    img{
+        height: 260px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    h1{
+        font-size: 30px;
+        }
+}     
+@media screen and (min-width: 1025px) and (max-width: 1449) {
+    h1{
+        font-size: 35px;
+        margin-bottom: 50px;
+    }
+}  
+@media screen and (min-width: 1450px){
+    h1{
+        font-size: 40px;
+        margin-bottom: 60px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .description p{
+        font-size: 18px;
+    }
+}     
+@media screen and (min-width: 1025px) and (max-width: 1449px) {
+    .description p{
+        font-size: 22px;
+    }
+}
+@media screen and (min-width: 1450px){
+    .description p{
+        font-size: 25px;
+    }
+}
