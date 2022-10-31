@@ -59,13 +59,12 @@ button{
     width: 150px;
 }
 
-
-
 .linkedin{
     margin-right: 80px;
     width: 400px;
 }
 
+/* Responsividade */
 @media screen and (max-width: 1024px) {
     p, button{
     font-size: 18px;
