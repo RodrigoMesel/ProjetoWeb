@@ -86,7 +86,7 @@ img{
 
 @media screen and (max-width: 1400px) and (min-height: 850px){
     .hbutton, button{
-    font-size: 22px;
+    font-size: 21px;
     }
 }
 @media screen and (max-width: 1400px) and (max-height: 849px){
@@ -105,12 +105,12 @@ img{
         height: 130px;
     }
 } 
-@media screen and (max-width: 1400px) and (min-width: 1000px) and (min-height: 850px) {
+@media screen and (max-width: 1000px) and (min-height: 850px) {
     img{
-        height: 160px;
+        height: 180px;
     }
 }     
-@media screen and (min-width: 1401px){
+@media screen and (min-width: 1001px){
     img{
         height: 260px;
     }

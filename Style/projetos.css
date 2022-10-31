@@ -61,11 +61,6 @@ button{
     max-width: 60%;
 }
 
-.third img{
-    border-radius: 500px;
-    max-width: 80%;
-}
-
 .github{
     margin: 70px 0px 25px 10px;
     display: flex;
@@ -121,6 +116,12 @@ button{
         margin: 100px 0px 25px 20%;
         max-width: 60%;
     }
+
+    .third img{
+        border-radius: 500px;
+        max-width: 80%;
+        height: 400px;
+    }
 }
 
 @media screen and (max-width: 1400px) and (min-height: 850px) {
@@ -141,6 +142,12 @@ button{
         justify-content: center;
         margin: 100px 0px 25px 0px;
         max-width: 60%;
+    }
+
+    .third img{
+        border-radius: 500px;
+        max-width: 80%;
+        height: 300px;
     }
 }
 
