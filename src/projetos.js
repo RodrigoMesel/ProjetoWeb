@@ -1,5 +1,3 @@
-let lang = "pt";
-
 const toPort = document.getElementById("port");
 const toEng = document.getElementById("eng");
 
@@ -32,8 +30,31 @@ let dict = {
     }
 }
 
+//Start
+let lang = window.localStorage.getItem('lang');
+if(lang === "pt"){
+    proj.textContent = dict.pt.proj;
+    contact.textContent = dict.pt.contact;
+    title.textContent = dict.pt.title;
+    first.textContent = dict.pt.first;
+    second.textContent = dict.pt.second;
+    third.textContent = dict.pt.third;
+    git.textContent = dict.pt.git;
+}
+else{
+    proj.textContent = dict.eng.proj;
+    contact.textContent = dict.eng.contact;
+    title.textContent = dict.eng.title;
+    first.textContent = dict.eng.first;
+    second.textContent = dict.eng.second;
+    third.textContent = dict.eng.third;
+    git.textContent = dict.eng.git;
+}
+
+
+//Switcher
 toPort.addEventListener("click", () => {
-    lang = "pt";
+    window.localStorage.setItem('lang', 'pt');
     proj.textContent = dict.pt.proj;
     contact.textContent = dict.pt.contact;
     title.textContent = dict.pt.title;
@@ -45,7 +66,7 @@ toPort.addEventListener("click", () => {
 })
 
 toEng.addEventListener("click", () => {
-    lang = "en";
+    window.localStorage.setItem('lang', 'en');
     proj.textContent = dict.eng.proj;
     contact.textContent = dict.eng.contact;
     title.textContent = dict.eng.title;
