@@ -204,3 +204,7 @@ button{
 button{
     cursor:pointer;
 }
+
+.github img:hover{
+    transform: scale(1.2);    
+}
