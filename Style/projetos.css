@@ -70,8 +70,11 @@ button{
 
 /* Responsividade */
 @media screen and (max-width: 1400px) {
-    p, button{
-    font-size: 22px;
+    p{
+    font-size: 20px;
+    }
+    .hbutton, button{
+        font-size: 18px;
     }
 
     h1{
@@ -194,7 +197,7 @@ button{
     .third img{
         border-radius: 500px;
         max-width: 80%;
-        height: 200px;
+        height: 300px;
     }
 }
 
