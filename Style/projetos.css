@@ -197,3 +197,7 @@ button{
         height: 200px;
     }
 }
+
+button{
+    cursor:pointer;
+}

@@ -199,3 +199,7 @@ button{
         padding-top: 50px;
     }
 }  
+
+button{
+    cursor:pointer;
+}

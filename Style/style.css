@@ -171,9 +171,11 @@ img{
 }     
 @media screen and (min-width: 1450px) and (min-height: 850px){
     .description p{
-        font-size: 25px;
+        font-size: 24px;
     }
 }
 
-
+button{
+    cursor:pointer;
+}
 

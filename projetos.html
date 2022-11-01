@@ -13,37 +13,37 @@
         <div class="header">
             <div class="headerButtons">
                 <p class="hbutton"> <a href="index.html"> Home </a> </p>
-                <p class="hbutton"> <a href="projetos.html"> Projetos </a> </p>
-                <p class="hbutton"> <a href="contato.html"> Contato </a> </p>
+                <p class="hbutton"> <a href="projetos.html" id="proj"> Projetos </a> </p>
+                <p class="hbutton"> <a href="contato.html" id="contact"> Contato </a> </p>
             </div>
 
             <div class="language">
-                <button> pt </button>
-                <button> en </button>
+                <button id="port"> pt </button>
+                <button id="eng"> en </button>
             </div>
         </div>
 
         <div class="projects">
-            <h1>Meus projetos 📄</h1>
+            <h1 id="title">Meus projetos 📄</h1>
 
             <div class="firstProject">
-                <p>Este primeiro projeto foi um trabalho da cadeira introdução a computação, em que tive o meu primeiro contato com HTML e CSS. Foi meu primeiro site sobre mim.</p>
+                <p id="first">Este primeiro projeto foi um trabalho da cadeira introdução a computação, em que tive o meu primeiro contato com HTML e CSS. Foi meu primeiro site sobre mim.</p>
                 <img src="./assets/firstProject.png" alt="first">
             </div>
 
             <div class="secondProject">
-                <p>AluCar é um site de uma locadora de carros, foi um projeto em grupo da cadeira Engenharia de software e sistemas. Nesse projeto desenvolvi muitas habilidades com HTML, SCSS e TypeScript.</p>
+                <p id="second">AluCar é um site de uma locadora de carros, foi um projeto em grupo da cadeira Engenharia de software e sistemas. Nesse projeto desenvolvi muitas habilidades com HTML, SCSS e TypeScript.</p>
                 <img src="./assets/secondProject pic1.png" alt="pic1">
                 <img src="./assets/secondProject pic2.png" alt="pic2">
             </div>
 
             <div class="third">
-                <p>Este último projeto foi um jogo desenvolvido em python na cadeira introdução a programação.</p>
+                <p id="third">Este último projeto foi um jogo desenvolvido em python na cadeira introdução a programação.</p>
                 <img src="./assets/thirdProject.gif" alt="">
             </div>
 
             <div class="github">
-                <p>Você pode conferir esses projestos e outros no meu github:</p>
+                <p id="git">Você pode conferir esses projestos e outros no meu github:</p>
                 <a href="https://github.com/RodrigoMesel" target="_blank"><img src="./assets/github-icon.webp" alt=""></a>
             </div>
 
@@ -52,6 +52,8 @@
         </div>
 
     </div>
+
+    <script src="src/projetos.js"></script>
 </body>
 </html>
 
