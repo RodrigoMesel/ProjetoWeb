@@ -5,6 +5,7 @@
     color: white;
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
 }
 
 .header{
@@ -33,6 +34,49 @@ a {
 
 .language{
     padding-right: 40px;
+}
+
+.php-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-direction: column;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.formItem {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+}
+
+.submit {
+    width: 128px;
+    background: transparent;
+    color: white;
+    border-radius: 16px;
+    border: solid;
+    padding: 10px;
+}
+
+.input {
+    width: 250px;
+    background: transparent;
+    padding: 10px;
+    border: solid;
+    border-color: white;
+    border-radius: 20px;
+    color: white;
 }
 
 button{
